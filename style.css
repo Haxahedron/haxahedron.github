@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 ul {
     position: fixed;
     top: 0;
@@ -39,21 +43,51 @@ body {
     width: 100%;
 }
 
-h1.main {
+div.header {
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #FFFFFF;
     margin-top: 500px;
+    margin-bottom: 50px;
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 8px;
 }
 
-p.main {
+div.main {
+    height: 200px;
+    width: 50%;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
     color: whitesmoke;
-    margin: 50px;
+    padding: 60px;
 }
+
+div.image {
+    height: 200px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.75);
+    float: right;
+    transform: translate(+0%, -100%);
+}
+
+/*
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66,66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+*/
